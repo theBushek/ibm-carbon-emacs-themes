@@ -1,9 +1,11 @@
-#IBM Carbon emacs themes (wip)
+IBM Carbon emacs themes (wip)
+=============================
 
 **Please note that these themes are still wip and need a little bit of polish**  
 
 
-##Install
+Install
+-------
 
 Clone this repo and cp the wanted theme into your .emacs.d directory  
 
@@ -19,7 +21,7 @@ and use them with the doom-themes package:
 (use-package doom-themes
   :ensure t
   :config
-  (load-theme 'ibm-carbon-gray-100)
+  (load-theme 'ibm-carbon-gray-100 t)
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t)
   (doom-themes-visual-bell-config)
@@ -29,6 +31,7 @@ and use them with the doom-themes package:
 ```
 
 
-##Configuration
+Configuration
+-------------
 
 All of the customizable variables can be accessed by the package helpful (C-h v in most cases)
