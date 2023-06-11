@@ -1,5 +1,3 @@
-(require 'doom-themes)
-
 ;;
 ;;; Variables
 
@@ -94,7 +92,7 @@ reference, easier on the eyes."
    (strings        bright-blue)
    (variables      violet)
    (numbers        magenta)
-   (region         base8)
+   (region         base7)
    (error          red)
    (warning        yellow)
    (success        green)
@@ -184,7 +182,6 @@ reference, easier on the eyes."
     :inherit 'mode-line-inactive
     :background modeline-bg-inactive-l
     :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg-inactive-l))))
-
   ;;;; Base theme variable overrides-
   ()
   )
