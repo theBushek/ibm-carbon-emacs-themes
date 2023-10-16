@@ -1,7 +1,5 @@
 ;;
 
-(require 'doom-themes)
-
 ;;; Variables
 
 (defgroup ibm-carbon-gray-100-theme nil
