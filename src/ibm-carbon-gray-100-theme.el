@@ -1,4 +1,7 @@
 ;;
+
+(require 'doom-themes)
+
 ;;; Variables
 
 (defgroup ibm-carbon-gray-100-theme nil
@@ -82,7 +85,7 @@ reference, easier on the eyes."
 		 (selection      dark-blue)
 		 (builtin        blue)
 		 (comments       (if ibm-carbon-gray-100-brighter-comments dark-cyan grey))
-		 (doc-comments   (doom-lighten (if ibm-carbon-gray-100-brighter-comments dark-cyan grey) 0.25))
+		 (doc-comments   (doom-darken (if ibm-carbon-gray-100-brighter-comments dark-cyan grey) 0.5))
 		 (constants      magenta)
 		 (functions      teal)
 		 (keywords       blue)
@@ -92,7 +95,7 @@ reference, easier on the eyes."
 		 (strings        bright-blue)
 		 (variables      violet)
 		 (numbers        magenta)
-		 (region         (doom-darken base7 0.5))
+		 (region         (doom-darken base6 0.5))
 		 (error          red)
 		 (warning        yellow)
 		 (success        green)
